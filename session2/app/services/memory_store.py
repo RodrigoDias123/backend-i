@@ -1,3 +1,3 @@
-from app.domain.models import Meeting, ActionItem
+from app.domain.models import Meeting
 
 meetings: list[Meeting] = []

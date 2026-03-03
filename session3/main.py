@@ -19,7 +19,20 @@ def goodbye():
     echo(style("bye", fg=colors.YELLOW))
 
 @cli.command()
-def create_meeting(meeting: Meeting):
+def create_meeting(
+    title: str,
+    owner: str,
+    date: str
+                   
+                   
+    ):
+
+    meeting = Meeting(
+        title=title,
+        owner=owner,
+        date=date
+    )
+    
     """
     Create a meeting note
     """

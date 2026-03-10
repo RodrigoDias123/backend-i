@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Sprint Planning",
+    "date": "2026-03-15",
+    "owner": "Jorge",
+    "participants": [],
+    "action_items": []
+  },
+  {
+    "id": 2,
+    "title": "Retro",
+    "date": "2026-03-20",
+    "owner": "Alice",
+    "participants": [],
+    "action_items": []
+  }
+]

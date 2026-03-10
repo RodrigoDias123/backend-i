@@ -1,49 +1,30 @@
-# Meeting Note Assistant - Comandos
+# Session 1 - CLI Create Meeting
 
-## 1) Setup do ambiente (uv)
+Exercise implementation with the `create-meeting` command using Typer.
 
-```bash
-cd /workspaces/backend-i/session1
-uv venv
-source .venv/bin/activate
-uv add typer
-```
+## Requirements
 
-## 2) Executar a CLI
+- Python 3
+- uv
 
-O comando principal está em `meeting-note-assistant/app/cli.py`.
+## Install dependencies
 
 ```bash
-uv run python meeting-note-assistant/app/cli.py "<title>" "<owner>" "<date>"
+uv sync
 ```
 
-Exemplo:
+## Run
 
 ```bash
-uv run python meeting-note-assistant/app/cli.py "Sprint Planning" "Alex" "2026-03-07"
+uv run app/cli.py create-meeting --title "Sprint Planning" --date "2026-03-15" --owner "Jorge"
 ```
 
-Saída esperada:
+## Expected output
 
 ```text
---- Meeting Created ---
-Title: Sprint Planning
-Owner: Alex
-Date:  2026-03-07
-```
-
-## 3) Validação de data (desafio)
-
-Formato aceito: `YYYY-MM-DD`.
-
-Exemplo inválido:
-
-```bash
-uv run python meeting-note-assistant/app/cli.py "Retro" "Alex" "2026-99-99"
-```
-
-Saída de erro esperada:
-
-```text
-Error: '2026-99-99' is not a valid date. Use YYYY-MM-DD format.
+Meeting Summary:
+	Title: Sprint Planning
+	Date: 2026-03-15
+	Owner: Jorge
+	Status: Successfully created!
 ```

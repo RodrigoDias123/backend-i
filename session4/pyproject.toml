@@ -1,9 +1,8 @@
 [project]
-name = "session4"
+name = "meetings-app"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.9"
-dependencies = [
-    "typer>=0.23.2",
-]
+description = "Meeting persistence with JSON storage"
+requires-python = ">=3.11"
+dependencies = ["click>=8.0"]
+
+[tool.uv]

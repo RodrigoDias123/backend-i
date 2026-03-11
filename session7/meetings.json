@@ -1,0 +1,20 @@
+{
+  "meetings": [
+    {
+      "id": "9f1b1e81-aad9-4812-99d3-e1c7fe7dd86f",
+      "title": "Planning",
+      "date": "2026-03-20",
+      "owner": "Maria",
+      "action_items": [],
+      "created_at": "2026-03-10T00:08:00.511414"
+    },
+    {
+      "id": "eeba6a3e-adfd-4a94-847b-36b2a74617ca",
+      "title": "Review",
+      "date": "2026-03-25",
+      "owner": "Alex",
+      "action_items": [],
+      "created_at": "2026-03-10T00:08:34.774174"
+    }
+  ]
+}

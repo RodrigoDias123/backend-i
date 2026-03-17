@@ -1,0 +1,1 @@
+{"model_format":"gguf","model_family":"llama","model_families":["llama"],"model_type":"134.52M","file_type":"Q2_K","architecture":"amd64","os":"linux","rootfs":{"type":"layers","diff_ids":["sha256:0ae55de06fcc9c07cb2d7a1fe2b5bb4a319eaa6297a805b82ebb74ca0097f8c2","sha256:cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"]}}

@@ -18,7 +18,7 @@ curl -X POST http://127.0.0.1:8000/meetings \
 # Returns 201 with created meeting
 
 # Invalid: title too short
-curl -X POST http://127.0.0.1:8000/meetings \
+curl -X POST http://127.0.0.  1:8000/meetings \
   -H "content-type: application/json" \
   -d '{"title": "Ok", "date": "2026-03-15", "owner": "Jorge"}'
 # Returns 422: Field validation error for title

@@ -1,0 +1,20 @@
+services:
+   
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - ollama
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+         
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    ports:
+      - 11434:11434
+    volumes:
+      - ./ollama_data:/root/.ollama
+    

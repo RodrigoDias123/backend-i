@@ -1,5 +1,6 @@
 # Meetings App - JSON/CSV Persistence
 
+
 A CLI application for managing meetings with persistent JSON storage.
 
 ## Features

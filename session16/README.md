@@ -1,5 +1,6 @@
 # Session 16 | Django Admin
 
+
 Django project for Session 16 focused on configuring Django Admin for the `Meeting` model.
 
 ## Project Structure

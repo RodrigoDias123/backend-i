@@ -1,5 +1,6 @@
 # Meetings API com FastAPI + Ollama
 
+
 API simples para registar meetings e gerar automaticamente um resumo em portugues usando um modelo local no Ollama.
 
 ## O que este projeto faz

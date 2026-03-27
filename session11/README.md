@@ -1,5 +1,6 @@
 # Session 11 | Notes, Decisions, and Action Items
 
+
 REST API built with FastAPI and Python 3.14.
 
 ## Setup

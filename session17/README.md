@@ -1,5 +1,6 @@
 # Session 17 - Authentication and Permissions
 
+
 Projeto Django para configurar grupos e permissões do app meetings, com foco no requisito principal:
 o grupo editor pode visualizar e editar reuniões, mas nao pode deletar.
 

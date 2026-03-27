@@ -1,5 +1,6 @@
 # Session 13 | API Testing
 
+
 Implementacao do exercicio de testes para o endpoint POST /meetings.
 
 ## Requisitos

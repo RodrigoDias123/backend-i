@@ -1,5 +1,6 @@
 # Session15
 
+
 Projeto Django inicial para gerenciamento de reuniões. No estado atual, a aplicação já possui a estrutura base do framework, uma app chamada `meetings`, banco SQLite configurado e uma rota HTTP simples para validação do funcionamento.
 
 ## Tecnologias

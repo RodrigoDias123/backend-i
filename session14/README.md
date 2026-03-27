@@ -1,5 +1,6 @@
 # Session 14 | API Checkpoint
 
+
 Minimal FastAPI project built with `uv` for the Session 14 checkpoint.
 
 ## Requirements Covered

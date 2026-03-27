@@ -1,5 +1,6 @@
 # Session 9 - FastAPI Meeting API
 
+
 ## Descrição
 API para criação de reuniões, validando título (mínimo 3 caracteres) e lista de participantes não vazia, conforme exercício da sessão 9.
 

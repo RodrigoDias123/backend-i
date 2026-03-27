@@ -1,5 +1,6 @@
 # Meeting CLI
 
+
 A command-line interface (CLI) for managing meetings with JSON persistence, built with Python, Click, and Pydantic. All dependencies are managed with [uv](https://github.com/astral-sh/uv).
 
 ## Features

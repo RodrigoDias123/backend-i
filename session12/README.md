@@ -1,5 +1,6 @@
 # Session 12 — Filters, Sorting, and Pagination
 
+
 FastAPI project implementing filters, sorting, and pagination for action items.
 
 ## Setup

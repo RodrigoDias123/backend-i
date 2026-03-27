@@ -1,5 +1,6 @@
 # Meeting Management CLI - Session 2: Data Modeling
 
+
 A Python CLI application for managing meetings and action items using dataclasses and in-memory storage with uv.
 
 ## Quick Start

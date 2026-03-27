@@ -1,4 +1,3 @@
-
 # Session 8 | FastAPI Meetings API
 
 ## Description

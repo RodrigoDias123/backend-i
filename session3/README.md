@@ -1,5 +1,6 @@
 # Meeting Management CLI - Session 3: Functions and Modularization
 
+
 A Python CLI application for managing meetings with refactored service architecture using uv.
 
 ## Quick Start

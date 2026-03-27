@@ -1,5 +1,6 @@
 # Meeting Management CLI
 
+
 A command-line application for managing meetings with structured logging.
 
 ## ✅ Implemented Requirements

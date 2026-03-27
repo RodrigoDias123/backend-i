@@ -1,5 +1,6 @@
 # Session 1 - CLI Create Meeting
 
+
 Exercise implementation with the `create-meeting` command using Typer.
 
 ## Requirements
